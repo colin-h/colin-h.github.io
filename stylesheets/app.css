@@ -9453,49 +9453,42 @@ th.hide-for-touch {
   position: relative;
 }
 
-/* line 15, ../scss/partials/_base.scss */
-#main {
-  margin-top: auto;
-  margin-bottom: auto;
-  vertical-align: middle;
-}
-
-/* line 23, ../scss/partials/_base.scss */
+/* line 18, ../scss/partials/_base.scss */
 .panel {
   border-bottom: 10px solid #FF976E;
   border-radius: 4px;
-  margin-top: 10%;
 }
-/* line 28, ../scss/partials/_base.scss */
+/* line 23, ../scss/partials/_base.scss */
 .panel p {
   text-align: center;
 }
 
-/* line 34, ../scss/partials/_base.scss */
+/* line 29, ../scss/partials/_base.scss */
 .title {
   text-align: center;
   color: #222222;
 }
 
-/* line 39, ../scss/partials/_base.scss */
+/* line 34, ../scss/partials/_base.scss */
 .iconlist {
   list-style-type: none;
   text-align: center;
+  margin-left: 0;
 }
-/* line 42, ../scss/partials/_base.scss */
+/* line 38, ../scss/partials/_base.scss */
 .iconlist li {
   display: inline-block;
   margin-left: 4px;
   margin-right: 4px;
 }
 
-/* line 49, ../scss/partials/_base.scss */
+/* line 45, ../scss/partials/_base.scss */
 .icon {
-  width: 24px;
+  width: 28px;
   max-width: 100%;
 }
 
-/* line 54, ../scss/partials/_base.scss */
+/* line 50, ../scss/partials/_base.scss */
 .profile {
   border-radius: 50%;
   width: 260px;
