@@ -5621,7 +5621,7 @@ ul.pagination li {
 .panel {
   border-style: solid;
   border-width: 0;
-  border-color: #e3e3e3;
+  border-color: #303030;
   margin-bottom: 0.8125rem;
   padding: 0.8125rem;
   background: #fff;
@@ -5652,7 +5652,7 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 0;
-  border-color: #e3e3e3;
+  border-color: #303030;
   margin-bottom: 0.8125rem;
   padding: 0.8125rem;
   background: #f5f6ff;
@@ -9458,37 +9458,33 @@ th.hide-for-touch {
   border-bottom: 10px solid #FF976E;
   border-radius: 4px;
 }
-/* line 17, ../scss/partials/_base.scss */
-.panel p {
-  text-align: center;
-}
 
-/* line 23, ../scss/partials/_base.scss */
+/* line 19, ../scss/partials/_base.scss */
 .title {
   text-align: center;
   color: #222222;
 }
 
-/* line 28, ../scss/partials/_base.scss */
+/* line 24, ../scss/partials/_base.scss */
 .iconlist {
   list-style-type: none;
   text-align: center;
   margin-left: 0;
 }
-/* line 32, ../scss/partials/_base.scss */
+/* line 28, ../scss/partials/_base.scss */
 .iconlist li {
   display: inline-block;
   margin-left: 4px;
   margin-right: 4px;
 }
 
-/* line 39, ../scss/partials/_base.scss */
+/* line 35, ../scss/partials/_base.scss */
 .icon {
   width: 28px;
   max-width: 100%;
 }
 
-/* line 44, ../scss/partials/_base.scss */
+/* line 40, ../scss/partials/_base.scss */
 .profile {
   border-radius: 50%;
   width: 260px;
