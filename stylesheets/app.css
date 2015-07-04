@@ -7201,26 +7201,31 @@ a {
 }
 
 /* line 36, ../scss/partials/_base.scss */
+#main {
+  min-height: 50%;
+}
+
+/* line 40, ../scss/partials/_base.scss */
 .title {
   text-align: center;
   color: #222222;
 }
 
-/* line 41, ../scss/partials/_base.scss */
+/* line 45, ../scss/partials/_base.scss */
 .section1 {
   background-color: #FFFFFF;
-  min-height: 75%;
+  height: 75%;
 }
 
-/* line 46, ../scss/partials/_base.scss */
+/* line 51, ../scss/partials/_base.scss */
 .section2 {
   background-color: #5B7876;
-  min-height: 25%;
+  height: auto;
   border-top: 4px solid #EEEEEE;
   position: relative;
 }
 
-/* line 55, ../scss/partials/_base.scss */
+/* line 60, ../scss/partials/_base.scss */
 .panel {
   text-align: justify;
   border-right: 10px solid #F2E6B6;
@@ -7233,36 +7238,37 @@ a {
   margin-top: 4%;
   margin-bottom: 4%;
 }
-/* line 67, ../scss/partials/_base.scss */
+/* line 72, ../scss/partials/_base.scss */
 .panel img {
   border: 4px solid #EEEEEE;
   border-radius: 4px;
 }
-/* line 72, ../scss/partials/_base.scss */
+/* line 77, ../scss/partials/_base.scss */
 .panel #subpanel {
   text-align: center;
+  margin-top: 1%;
 }
 
-/* line 78, ../scss/partials/_base.scss */
+/* line 84, ../scss/partials/_base.scss */
 .iconlist {
   list-style-type: none;
   text-align: center;
   margin-left: 0;
 }
-/* line 82, ../scss/partials/_base.scss */
+/* line 88, ../scss/partials/_base.scss */
 .iconlist li {
   display: inline-block;
   margin-left: 4px;
   margin-right: 4px;
 }
 
-/* line 89, ../scss/partials/_base.scss */
+/* line 95, ../scss/partials/_base.scss */
 .icon {
   width: 28px;
   max-width: 100%;
 }
 
-/* line 94, ../scss/partials/_base.scss */
+/* line 100, ../scss/partials/_base.scss */
 .profile {
   border-radius: 50%;
   width: 260px;
