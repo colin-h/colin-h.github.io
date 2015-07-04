@@ -1,8 +1,42 @@
+i.small {
+  font-size: 1em;
+}
+i.medium {
+  font-size: 3em;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+i.medium:hover {
+  color: $primary-color;
+}
+
+i.large {
+  font-size: 5em;
+}
+
+
 a {
   color: inherit;
 }
 
 
+.nav {
+  text-align: center;
+  margin: 0 auto;
+  li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.title {
+  text-align: center;
+  color: $jet;
+}
 
 .section1 {
   // background-color: $smoke;
@@ -18,22 +52,14 @@ a {
   position: relative;
 }
 
-.nav {
-  text-align: center;
-  margin: 0 auto;
-  li {
-    display: inline-block;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
 
 .panel {
-  border-bottom: 10px solid $secondary-color;
-  border-radius: 4px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  text-align: justify;
+  border-right: 10px solid $secondary-color;
+  border-left: 10px solid $secondary-color;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
 
@@ -44,12 +70,11 @@ a {
     border-radius: 4px;
 
   }
+  #subpanel {
+    text-align: center;
+  }
 }
 
-.title {
-  text-align: center;
-  color: $jet;
-}
 
 .iconlist {
   list-style-type: none;

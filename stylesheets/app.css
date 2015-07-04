@@ -7160,30 +7160,39 @@ th.hide-for-touch {
   }
 }
 /* line 1, ../scss/partials/_base.scss */
+i.small {
+  font-size: 1em;
+}
+
+/* line 4, ../scss/partials/_base.scss */
+i.medium {
+  font-size: 3em;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+/* line 11, ../scss/partials/_base.scss */
+i.medium:hover {
+  color: #5B7876;
+}
+
+/* line 15, ../scss/partials/_base.scss */
+i.large {
+  font-size: 5em;
+}
+
+/* line 20, ../scss/partials/_base.scss */
 a {
   color: inherit;
 }
 
-/* line 7, ../scss/partials/_base.scss */
-.section1 {
-  background-color: #FFFFFF;
-  min-height: 75%;
-}
-
-/* line 13, ../scss/partials/_base.scss */
-.section2 {
-  background-color: #5B7876;
-  min-height: 25%;
-  border-top: 10px solid #F2E6B6;
-  position: relative;
-}
-
-/* line 21, ../scss/partials/_base.scss */
+/* line 25, ../scss/partials/_base.scss */
 .nav {
   text-align: center;
   margin: 0 auto;
 }
-/* line 24, ../scss/partials/_base.scss */
+/* line 28, ../scss/partials/_base.scss */
 .nav li {
   display: inline-block;
   text-align: center;
@@ -7191,49 +7200,69 @@ a {
   padding-right: 5px;
 }
 
-/* line 32, ../scss/partials/_base.scss */
-.panel {
-  border-bottom: 10px solid #F2E6B6;
-  border-radius: 4px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-/* line 42, ../scss/partials/_base.scss */
-.panel img {
-  border: 4px solid #EEEEEE;
-  border-radius: 4px;
-}
-
-/* line 49, ../scss/partials/_base.scss */
+/* line 36, ../scss/partials/_base.scss */
 .title {
   text-align: center;
   color: #222222;
 }
 
-/* line 54, ../scss/partials/_base.scss */
+/* line 41, ../scss/partials/_base.scss */
+.section1 {
+  background-color: #FFFFFF;
+  min-height: 75%;
+}
+
+/* line 47, ../scss/partials/_base.scss */
+.section2 {
+  background-color: #5B7876;
+  min-height: 25%;
+  border-top: 10px solid #F2E6B6;
+  position: relative;
+}
+
+/* line 56, ../scss/partials/_base.scss */
+.panel {
+  text-align: justify;
+  border-right: 10px solid #F2E6B6;
+  border-left: 10px solid #F2E6B6;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+/* line 68, ../scss/partials/_base.scss */
+.panel img {
+  border: 4px solid #EEEEEE;
+  border-radius: 4px;
+}
+/* line 73, ../scss/partials/_base.scss */
+.panel #subpanel {
+  text-align: center;
+}
+
+/* line 79, ../scss/partials/_base.scss */
 .iconlist {
   list-style-type: none;
   text-align: center;
   margin-left: 0;
 }
-/* line 58, ../scss/partials/_base.scss */
+/* line 83, ../scss/partials/_base.scss */
 .iconlist li {
   display: inline-block;
   margin-left: 4px;
   margin-right: 4px;
 }
 
-/* line 65, ../scss/partials/_base.scss */
+/* line 90, ../scss/partials/_base.scss */
 .icon {
   width: 28px;
   max-width: 100%;
 }
 
-/* line 70, ../scss/partials/_base.scss */
+/* line 95, ../scss/partials/_base.scss */
 .profile {
   border-radius: 50%;
   width: 260px;
